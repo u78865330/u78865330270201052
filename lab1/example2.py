@@ -4,21 +4,5 @@ for i in range(number):
   integer=int(input())
   if integer%2==0:
     c+=1
-print((c/number)*100,"%")
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
+print((c/number)*100)
 
