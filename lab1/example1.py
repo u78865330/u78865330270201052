@@ -1,10 +1,6 @@
-a=int(input("a:"))
-b=int(input("b: "))
-x=1
-for i in range(b):
-    x*=a
-    
-print(x)
+number=int(input())
+for i in range(1,11):
+  print(str(number) +"x"+ str(i) + "=" + str(number*i))
 
 
 
