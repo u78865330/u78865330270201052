@@ -1,8 +1,6 @@
-def get_reversed_recursive(my_list):
-  reversed_list=[]
-  if len(my_list)==0:
-    return []
-  else:
-    get_reversed_recursive(my_List[:-1])
-    
-
+def a(a_list):
+  b = 0
+  for q in a_list:
+    b = b + q
+  print(b**2)   
+a([12, -7, 5, -89.4, 3, 27, 56, 57.3])   
